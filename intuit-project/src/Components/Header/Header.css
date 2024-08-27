@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+  box-sizing: border-box;
+  
+}
+
+
+ .firstnav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+ }
+ .try{
+    font-size: small;
+     font-weight: 500;
+  }
+
+  .start{
+     font-size: 17px !important;
+  }
+  .start:hover{
+   text-decoration: dotted !important;
+   color: #fff;
+  }
+ .bignavbar{
+    display: flex;
+gap: 10px;
+align-items: center;
+padding: 5px;
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 99;
+ }
+ #subnavbar{
+    display: flex;
+    align-items: center;
+gap: 320px;
+ }
+ .solution{
+    display: flex;
+    align-items: center;
+ }
+ .nav1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+ }
+ .nav2{
+    display: flex;
+    align-items: center;
+ gap: 15px;
+ }
+ .search{
+    font-size: 1.2rem;
+ }
+ .en{
+    display: flex;
+    align-items: center;
+ }
+ .bar{
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 1.7rem;
+}
+.lines{
+    height: 0.2rem;
+    width: 90%;
+    background-color: black;
+    border-radius: 0.2rem;
+    }
+    #hover{
+        padding: 5px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    #hover:hover{
+        background-color: whitesmoke;
+        
+        }
+
+        .btn1{
+            border: 2px solid black ;
+            border-radius: 60px;
+            padding: 8px 18px 8px 18px;
+            background-color: white;
+            color: black;
+            transition-duration: 1s ease-in-out;
+            
+        }
+        .btn1:hover{
+         transition: 0.3s;
+         transform: translateY(-10px);
+        }
+        .btn2:hover{
+         transition: 0.3s;
+         transform: translateY(-10px);
+        }
+        .btn2{
+            border: 2px solid black ;
+            border-radius: 60px;
+            padding: 8px 18px 8px 18px;
+            background-color: rgb(253 224 71);
+            color: black;
+            transition-duration: 1s ease-in-out;
+        }
+#drop{
+    margin-top: 16px;
+        position: absolute;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        height: 100vh;
+        display: none;
+      
+        
+      
+      
+}
+.bigbtn{
+ background-color: black;
+ border-radius: 30px;
+}
+#drop.dropopen{
+   display: flex;
+   
+ 
+}
+ .img1{
+   width: 160px;
+ }
+
+ .dropdown{
+   margin-top: 20px;
+   margin-left: 100px;
+  
+ }
+ .grandparent{
+   overflow-y: scroll;
+   height: 600px;
+ }
+ .solandser{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .solu2{
+   font-size: 25px;
+  
+ }
+ .mes1{
+   width: 10%;
+ }
+.child12{
+   padding-top: 30px;
+}
+.child13{
+   padding-top: 30px;
+}
+.child14{
+   padding-top: 30px;
+}
+.child15{
+   padding-top: 30px;
+}
+.email{
+   display: flex;
+   gap: 15px;
+}
+.send{
+  padding-left: 39px;
+  max-width: 80%;
+  font-size: 11px;
+}
+.parent2{
+   padding-top: 40px;
+}
+.shop1{
+   width: 90%;
+   
+}
+.shophead{
+   display: flex;
+   gap: 10px;
+   padding-top: 20px;
+}
+
+.parent3{
+   padding-top: 40px;
+   padding-left: 30px;
+}
+.parent3 p{
+   padding-bottom: 20px;
+   color: #241c15;
+}
+.parent3 h4{
+   padding-bottom: 20px;
+  }
+
+.grandparent2{
+   background-color: #f6f6f4
+} 
+
+
+
+ @media (max-width:1100px) {
+   
+    .bignavbar{
+        display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+     }
+     #subnavbar{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+   gap: 15px;
+        width: 100%;
+        padding: 20px;
+     }
+     #subnavbar.open{
+        display: flex;
+     }
+     .nav1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .nav2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .bar{
+        display: flex;
+}
+.dropdown{
+   margin-top: 20px;
+   margin-left: 0px;
+  
+ }
+ .shop1{
+   display: none;
+   
+}
+}
+

@@ -1,0 +1,253 @@
+.build{
+    margin-top: 30px;
+  padding-right: 30px;
+    padding-left: 30px; 
+   }
+   .site{
+    margin-bottom: 10px;
+   }
+   .create{
+  font-size: 52px;
+  font-family: "Wittgenstein", serif;
+  font-weight: 500;
+
+   }
+.and{
+    margin-top: 70px;
+}
+
+#bat{
+    background-color: #e7b75f;
+    /* margin-bottom: 30px; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.eleven{
+    font-size: 24px;
+}
+.trust{
+    font-size: 17px;
+}
+.let{
+    margin-top: 70px;
+  padding-left: 60px;
+}
+.let p{
+    font-size: 18px;
+}
+
+#bat1{
+    background-color: #fbeeca;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+#bat2{
+    background-color:#241c15 ;
+    color: #fff;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.explore{
+    padding-bottom: 10px;
+}
+
+.unlock{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.unlock h6:hover{
+    text-decoration: underline;
+}
+.unlock h6{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.see{
+      margin-top: 120px;
+      padding-left: 60px;
+}
+.see p{
+    padding-top: 10px;
+}
+
+.market{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.market h5{
+    padding-bottom: 3px;
+    padding-top: 29px;
+font-size: 25px;
+}
+
+.market h5:hover{text-decoration: underline;}
+
+.mini{
+    font-family: "Wittgenstein", serif;
+    font-size: 48px;
+}
+.insta{
+    width: 90%;
+}
+.and1{
+    margin-top: 100px;
+}
+.with{
+    padding-bottom: 15px;
+    font-size: 19px;
+}
+
+#bat3{
+    background-color: #fbeeca;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   }
+
+   #bat4{
+    background-color:#e7b75f ;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.start{
+    font-family: "Wittgenstein", serif;
+    font-size: 42px;  
+}
+.have{
+    font-size: 25px;
+    font-weight: 400;
+}
+.or{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.team{
+    margin-top: 60px;
+  padding-left: 90px;
+ 
+}
+.team p{
+    font-size: 19px;
+    padding-top: 10px;
+}
+.team h1{
+    font-size: 40px;
+    font-family: "Wittgenstein", serif;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+}
+
+#bat5{
+padding-bottom: 40px;
+}
+
+.superman{
+    padding: 10px;
+}
+
+   @media (max-width:500px) {
+
+    .create{
+        font-size: 35px;
+        font-family: "Wittgenstein", serif;
+        font-weight: 500;
+      
+         }
+         .and{
+            margin-top: 0px;
+        }
+
+        .build{
+            margin-top: 30px;
+          padding-right: 10px;
+            padding-left: 10px; 
+           }
+
+
+           #bat{
+            background-color: #e7b75f;
+            /* margin-bottom: 30px; */
+            padding-top: 50px;
+            padding-bottom: 50px;
+            padding-right: 10px;
+            padding-left: 10px; 
+        }
+        
+        .let{
+            margin-top: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        #bat1{
+            background-color: #fbeeca;
+           padding-top: 40px;
+           padding-bottom: 40px;
+           padding-left: 0px;
+          padding-right: 0px;
+        }
+        .see{
+            margin-top: 0px;
+            padding-left: 15px;
+            padding-right: 10px;
+      }
+      .insta{
+        width: 100%;
+    }
+    
+    .and1{
+        margin-top: 0px;
+    }
+    .mini{
+        font-family: "Wittgenstein", serif;
+        font-size: 40px;
+    }
+
+    #bat3{
+        background-color: #fbeeca;
+       }
+.sec{
+    margin-left: -10px;
+}
+
+.start{
+    font-family: "Wittgenstein", serif;
+    font-size: 32px;  
+}
+.have{
+    font-size: 20px;
+    font-weight: 400;
+}
+.or{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.team{
+    margin-top: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* font-size: 20px; */
+}
+
+.team h1{
+    font-size: 36px;
+    font-family: "Wittgenstein", serif;
+    font-weight: 500;
+    /* letter-spacing: 1px; */
+}
+
+#bat5{
+    padding-bottom: 40px;
+    background-color: #f6f6f4;
+    padding-top: 20px;
+    border-radius: 20px;
+    }
+   }
+   
